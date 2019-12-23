@@ -19,7 +19,7 @@ void main() {
     LCD_Clear();
     /*LCD_Write_Char('a');
     LCD_Set_Cursor(2,1);
-    LCD_Write_String("chan vai"); */
+    LCD_Write_String("chan"); */
     //int c = 0;
     //TRISD1 = 0;
      
