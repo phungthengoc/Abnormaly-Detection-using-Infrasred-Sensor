@@ -11,6 +11,9 @@
 
 
 void main() {
+    TRISD = 0x00; //portD as output
+    PORTD = 0x00;
+    TRISB = 0xff;  // portB as input
     LCD_Init();
     __delay_ms(500);
     LCD_Clear();
